@@ -48,5 +48,18 @@ namespace Topic_10_Adding_to_Resources_assignment
             lblinfo.Text = "Click on the box to learn more!";
             lblinfo.Visible = true;
         }
+
+        private void btnDog_Click(object sender, EventArgs e)
+        {
+            imgBox.Visible = true;
+            imgBox.Image = Properties.Resources.Dog;
+            lblinfo.Text = "Dogs are the most common type of pet to have in a home!";
+            lblinfo.Visible = true;
+        }
+
+        private void btnDog_MouseHover(object sender, EventArgs e)
+        {
+
+        }
     }
 }

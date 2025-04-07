@@ -95,6 +95,8 @@
             this.btnDog.TabIndex = 4;
             this.btnDog.Text = "Dog";
             this.btnDog.UseVisualStyleBackColor = true;
+            this.btnDog.Click += new System.EventHandler(this.btnDog_Click);
+            this.btnDog.MouseHover += new System.EventHandler(this.btnDog_MouseHover);
             // 
             // btnTurtle
             // 
