@@ -83,9 +83,9 @@ namespace Topic_10_Adding_to_Resources_assignment.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Dog {
+        internal static System.Drawing.Bitmap Dog2 {
             get {
-                object obj = ResourceManager.GetObject("Dog", resourceCulture);
+                object obj = ResourceManager.GetObject("Dog2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -103,9 +103,9 @@ namespace Topic_10_Adding_to_Resources_assignment.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Turtle {
+        internal static System.Drawing.Bitmap Turtle2 {
             get {
-                object obj = ResourceManager.GetObject("Turtle", resourceCulture);
+                object obj = ResourceManager.GetObject("Turtle2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

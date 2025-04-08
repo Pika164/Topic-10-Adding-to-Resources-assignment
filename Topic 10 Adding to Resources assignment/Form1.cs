@@ -52,14 +52,49 @@ namespace Topic_10_Adding_to_Resources_assignment
         private void btnDog_Click(object sender, EventArgs e)
         {
             imgBox.Visible = true;
-            imgBox.Image = Properties.Resources.Dog;
+            imgBox.Image = Properties.Resources.Dog2;
             lblinfo.Text = "Dogs are the most common type of pet to have in a home!";
             lblinfo.Visible = true;
         }
 
         private void btnDog_MouseHover(object sender, EventArgs e)
         {
+            imgBox.Visible = true;
+            imgBox.Image = Properties.Resources.Dog2;
+            lblinfo.Text = "Click on the box to learn more!";
+            lblinfo.Visible = true;
+        }
 
+        private void btnTurtle_Click(object sender, EventArgs e)
+        {
+            imgBox.Visible = true;
+            imgBox.Image = Properties.Resources.Turtle2;
+            lblinfo.Text = "Turtles Don't have teeth!";
+            lblinfo.Visible = true;
+        }
+
+        private void btnTurtle_MouseHover(object sender, EventArgs e)
+        {
+            imgBox.Visible = true;
+            imgBox.Image = Properties.Resources.Turtle2;
+            lblinfo.Text = "Click on the box to learn more!";
+            lblinfo.Visible = true;
+        }
+
+        private void btnAxolotl_Click(object sender, EventArgs e)
+        {
+            imgBox.Visible = true;
+            imgBox.Image = Properties.Resources.axolotl;
+            lblinfo.Text = "Axolotl can regrow a bunch of their limbs, but they are dangerously close to extinction";
+            lblinfo.Visible = true;
+        }
+
+        private void btnAxolotl_MouseHover(object sender, EventArgs e)
+        {
+            imgBox.Visible = true;
+            imgBox.Image = Properties.Resources.axolotl;
+            lblinfo.Text = "Click on the box to learn more!";
+            lblinfo.Visible = true;
         }
     }
 }

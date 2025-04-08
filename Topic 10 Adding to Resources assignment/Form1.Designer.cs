@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.imgBox = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.btnCat = new System.Windows.Forms.Button();
             this.btnFox = new System.Windows.Forms.Button();
@@ -36,19 +35,9 @@
             this.btnTurtle = new System.Windows.Forms.Button();
             this.btnAxolotl = new System.Windows.Forms.Button();
             this.lblinfo = new System.Windows.Forms.Label();
+            this.imgBox = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.imgBox)).BeginInit();
             this.SuspendLayout();
-            // 
-            // imgBox
-            // 
-            this.imgBox.Image = global::Topic_10_Adding_to_Resources_assignment.Properties.Resources.Cat;
-            this.imgBox.Location = new System.Drawing.Point(239, 105);
-            this.imgBox.Name = "imgBox";
-            this.imgBox.Size = new System.Drawing.Size(473, 384);
-            this.imgBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.imgBox.TabIndex = 0;
-            this.imgBox.TabStop = false;
-            this.imgBox.Visible = false;
             // 
             // label1
             // 
@@ -107,6 +96,8 @@
             this.btnTurtle.TabIndex = 5;
             this.btnTurtle.Text = "Turtle";
             this.btnTurtle.UseVisualStyleBackColor = true;
+            this.btnTurtle.Click += new System.EventHandler(this.btnTurtle_Click);
+            this.btnTurtle.MouseHover += new System.EventHandler(this.btnTurtle_MouseHover);
             // 
             // btnAxolotl
             // 
@@ -117,6 +108,8 @@
             this.btnAxolotl.TabIndex = 6;
             this.btnAxolotl.Text = "Axolotl";
             this.btnAxolotl.UseVisualStyleBackColor = true;
+            this.btnAxolotl.Click += new System.EventHandler(this.btnAxolotl_Click);
+            this.btnAxolotl.MouseHover += new System.EventHandler(this.btnAxolotl_MouseHover);
             // 
             // lblinfo
             // 
@@ -128,6 +121,16 @@
             this.lblinfo.TabIndex = 7;
             this.lblinfo.Text = "Waiting for input";
             this.lblinfo.Visible = false;
+            // 
+            // imgBox
+            // 
+            this.imgBox.Location = new System.Drawing.Point(239, 105);
+            this.imgBox.Name = "imgBox";
+            this.imgBox.Size = new System.Drawing.Size(436, 400);
+            this.imgBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.imgBox.TabIndex = 0;
+            this.imgBox.TabStop = false;
+            this.imgBox.Visible = false;
             // 
             // Animals
             // 

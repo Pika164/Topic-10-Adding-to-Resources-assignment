@@ -124,13 +124,13 @@
   <data name="Cat" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Cat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Dog" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Dog.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Dog2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dog2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Fox" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Fox.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Turtle" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Turtle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Turtle2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Turtle2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
